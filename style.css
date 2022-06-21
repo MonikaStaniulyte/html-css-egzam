@@ -52,8 +52,8 @@ li:last-child {
   color: #555555;
 }
 
-.black-text {
-  color: black;
+.dark-text {
+  color: #111111;
 }
 
 .uppercase {
@@ -103,11 +103,13 @@ h4 {
   margin-bottom: 32px;
   font-weight: 900;
   font-size: 96px;
+  line-height: 116px;
 }
 .dont-miss {
   margin-bottom: 41px;
   font-weight: 400;
   font-size: 20px;
+  line-height: 150%;
 }
 .gradient-background {
   min-height: 320px;
@@ -124,11 +126,13 @@ h4 {
   font-weight: 500;
   font-size: 40px;
   margin-bottom: 24px;
+  line-height: 48px;
 }
 
 .gradient-background p {
   font-weight: 400;
   font-size: 20px;
+  line-height: 150%;
 }
 
 .press {
