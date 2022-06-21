@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+  height: 20px;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+li {
+  margin-right: 28px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+.pink-text {
+  color: #ff3998;
+}
+
+.grey-text {
+  color: #555555;
+}
+
+.dark-text {
+  color: #111111;
+}
+
+.orange-text {
+  color: #ff8139;
+}
+
+.light-grey-text {
+  background: #eeeeee;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+button {
+  border-radius: 999em;
+  background-color: white;
+  padding: 23px 56px;
+  font-size: 20px;
+  font-weight: 400;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 4px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.hero {
+  position: relative;
+  background: url(./assets/graphic.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 182px;
+  padding-top: 18px;
+  padding-bottom: 200px;
+}
+
+.hero-info {
+  overflow-wrap: break-word;
+  max-width: 620px;
+}
+
+.hero-info h4 {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.hero-info-title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+}
+.dont-miss {
+  margin-bottom: 41px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+.gradient-background {
+  min-height: 320px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url(./assets/background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gradient-background h3 {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 24px;
+  line-height: 48px;
+}
+
+.gradient-background p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.press {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 126px;
+}
+
+.press img {
+  margin-right: 106px;
+}
+
+img:last-child {
+  margin-right: 0;
+}
+
+.showcase h3 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 122px;
+  margin-bottom: 24px;
+}
+.showcase p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  margin-bottom: 56px;
+}
+.showcase span {
+  text-decoration: underline;
+  font-weight: 500;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  max-width: 290px;
+}
+.card .card-info {
+  background-color: #eeeeee;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 24px;
+}
+
+.card-info {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.line-1 {
+  height: 2px;
+  margin-bottom: 50px;
+}
+
+.hero-2 .hero {
+  position: relative;
+  background: url(./assets/upsell-footer-image.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 182px;
+  padding-top: 18px;
+  padding-bottom: 200px;
+}
+.exclusive {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.bottom {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu-col {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+}
