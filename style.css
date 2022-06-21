@@ -86,6 +86,9 @@ button {
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .hero-info {
@@ -93,4 +96,19 @@ button {
   /* /* display: flex;
   flex-direction: column; */
   max-width: 620px;
+}
+h4 {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.hero-info-title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 96px;
+}
+.dont-miss {
+  margin-bottom: 41px;
+  font-weight: 400;
+  font-size: 20px;
 }
