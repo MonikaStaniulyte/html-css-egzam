@@ -23,10 +23,9 @@ nav {
   /* border: 1px solid rebeccapurple; */
 }
 
-ul {
+header ul {
   display: flex;
   list-style: none;
-  /* border: 1px solid red; */
   font-weight: 400;
   font-size: 20px;
   height: 20px;
@@ -65,6 +64,7 @@ li:last-child {
 .uppercase {
   text-transform: uppercase;
 }
+
 button {
   border-radius: 999em;
   background-color: white;
@@ -198,6 +198,7 @@ img:last-child {
 
 .line-1 {
   height: 2px;
+  margin-bottom: 50px;
 }
 
 .hero-2 .hero {
@@ -209,4 +210,24 @@ img:last-child {
   margin-top: 182px;
   padding-top: 18px;
   padding-bottom: 200px;
+}
+.exclusive {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.bottom {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-menu-col {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
 }
