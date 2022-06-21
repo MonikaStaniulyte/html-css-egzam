@@ -20,7 +20,6 @@ nav {
 
 .logo {
   margin-right: 10px;
-  /* border: 1px solid rebeccapurple; */
 }
 
 header ul {
@@ -96,11 +95,10 @@ button {
 
 .hero-info {
   overflow-wrap: break-word;
-  /* /* display: flex;
-  flex-direction: column; */
   max-width: 620px;
 }
-h4 {
+
+.hero-info h4 {
   margin-bottom: 24px;
   font-weight: 700;
   font-size: 16px;
@@ -142,7 +140,6 @@ h4 {
 }
 
 .press {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   margin-top: 126px;
