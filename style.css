@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,13 +7,16 @@
 
 body {
   font-family: "Inter", sans-serif;
+  padding-top: 70px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 nav {
   display: flex;
-  padding-top: 70px;
+  /* padding-top: 70px;
   padding-left: 80px;
-  padding-right: 80px;
+  padding-right: 80px; */
   align-items: center;
 }
 
@@ -27,6 +29,7 @@ ul {
   display: flex;
   list-style: none;
   border: 1px solid red;
+  font-weight: 400;
   font-size: 20px;
   height: 20px;
   flex-grow: 1;
@@ -60,9 +63,8 @@ li:last-child {
   text-transform: uppercase;
 }
 button {
-  border-radius: 2.5rem;
+  border-radius: 999em;
   background-color: white;
-  /* border: 3px solid #ff3998; */
   padding: 23px 56px;
   font-size: 20px;
   font-weight: 400;
@@ -76,4 +78,19 @@ button {
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.hero {
+  position: relative;
+  background: url(./assets/graphic.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-info {
+  overflow-wrap: break-word;
+  /* /* display: flex;
+  flex-direction: column; */
+  max-width: 620px;
 }
